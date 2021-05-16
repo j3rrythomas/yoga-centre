@@ -1,0 +1,119 @@
+// body {
+//     background: #F2F2F2;
+// }\
+.map-embed {
+    width: 600px;
+    height: 450px;
+}
+
+@include media("<=medium") {
+    .map-embed {
+        display: block;
+        width: 100%;
+        // height: 100%;
+    }
+}
+
+.grid-section {
+    margin: 5%;
+}
+
+.grid-item {
+    // height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+.grid-content {
+    flex-grow: 2;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    h1 {
+        margin: 2% 2% 1% 2%;
+        padding: 1%;
+    }
+    p {
+        margin: 0% 2% 2% 2%;
+        padding: 1%;
+    }
+}
+
+.grid-content-right {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.grid-content-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    div {
+        margin-top: 2%;
+        margin-right: 5%;
+    }
+}
+
+@include media("<medium") {
+    .grid-section {
+        margin-top: 15%;
+    }
+    .grid-item {
+        display: block;
+        height: 100%;
+    }
+    .grid-content {
+        text-align: left;
+    }
+    .grid-content-right {
+        align-items: flex-start;
+        text-align: left;
+    }
+    .grid-content-button {
+        align-items: center;
+    }
+}
+
+.grid-content:hover {
+    // background: #1E5631;
+    // color: #F2F2F2;
+    -webkit-box-shadow: 0 0 5px 2px #1E5631;
+    -moz-box-shadow: 0 0 5px 2px #1E5631;
+    box-shadow: 0 0 5px 2px #1E5631;
+    transition: box-shadow 200ms ease-in;
+}
+
+.grid-img:hover {
+    transform: scale(0.9);
+    transition: transform 300ms ease-in;
+}
+
+// .grid-img {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+.card-root {
+    height: 100%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 20px !important;
+    padding: 8%;
+}
+
+.card-media {
+    border-radius: 10px;
+}
+
+.phone-number,
+.mail-id {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

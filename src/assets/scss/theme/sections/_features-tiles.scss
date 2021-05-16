@@ -1,5 +1,14 @@
 .features-tiles-item-image {
-	display: inline-flex;
-	border-radius: 50%;
-	background-color: get-color(primary, 3);
+    display: inline-flex;
+    border-radius: 50%;
+    // background-color: get-color(primary, 3);
 }
+
+.features-tiles-item-image:hover {
+    transform: translateY(-10px);
+    transition: transform 200ms ease;
+}
+
+// .features-tiles-item-content:hover {
+//     box-shadow: 0 0 2px 5px rgba(76, 154, 42, 0.5);
+// }
