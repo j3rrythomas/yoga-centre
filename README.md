@@ -5,10 +5,11 @@
 This project is built using React to develop a website for a local yoga centre, **Happy Yoga and Meditation Centre**.
 This website uses modern tools like React, Material-UI and SASS.The design is responsive and has basic animations for a good look and feel.
 
-## Live demo
+## Live view
 
+https://happy-yoga-centre.netlify.app/
 
-##Origin Template
+## Origin Template
 This website is made from a template developed by cruip.
 Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
 
